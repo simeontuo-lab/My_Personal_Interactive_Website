@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ========================================================
     // FEATURE 2: ASYNCHRONOUS HERO TYPING PROCESSOR
     // ========================================================
-    const textPool = ["Telecommunication & Network Technician.", "Software Developer.",];
+    const textPool = ["Software Developer.", "Telecommunication & Network Specialist." ,];
     let poolIdx = 0;
     let charIdx = 0;
     let isDeleting = false;
