@@ -1,0 +1,1 @@
+Frontend for a simple Interactive personal web site project, including some Javascript functionality.

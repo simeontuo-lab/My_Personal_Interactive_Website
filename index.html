@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kodan-Hana Tuo | Portfolio</title>
+    
+    <link rel="shortcut icon" href="icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="sidebar-content">
+      <div id="profile" class="profile">
+        <img id="profile-image" src="kodimg.jpg" alt="Kodan-Hana Tuo Profile Picture" />
+        <h1 id="myname">KODAN-HANA S.TUO</h1>
+        <p class="subtitle">Network Technician</p>
+        <p class="subtitle">Software Developer</p>
+      </div>
+
+      <nav id="nav" class="nav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#home" data-target="home" class="nav-link active">Home</a></li>
+          <li><a href="#skills" data-target="skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" data-target="education" class="nav-link">Education</a></li>
+          <li><a href="#experience" data-target="experience" class="nav-link">Experience</a></li>        
+          <li><a href="#contact-menu" data-target="contact-menu" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <footer class="sidebar-footer">
+      <p>&copy; 2026 KTHS</p>
+    </footer>
+  </aside>
+
+  <main class="main-content">
+    
+    <section id="home" class="page-view active-view">
+      <div class="hero-section">
+        <div class="hero-image">
+          <img src="kodanp.jpg" alt="Kodan-Hana working on networking gear" />
+        </div>
+        <div class="hero-text">
+          <h2>I am a <span id="typing-text" class="highlight"></span></h2>
+          <p>
+            Looking for a position where my skills can be fully utilized.
+            Clean, responsive, and ready for new opportunities and challenges.
+          </p>
+          <div class="cta-group">
+            <a href="portfolio.html" class="btn-primary" target="_blank" rel="noopener noreferrer">View Portfolio</a>
+          </div>
+          
+          <blockquote class="flash-text">
+            "It always seems impossible, until it is done." 
+            <cite>&mdash; Nelson Mandela</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="page-view">
+      <div class="about-section">
+        <h2>SKILLS</h2>
+        <div class="card">
+          <h3>Network Technician & Web Developer</h3>
+          <ul class="skills-list">
+            <li>Software Development (JavaScript, Node.js, Express, MongoDB)</li>
+            <li>BSS/RAN (Radio – Transmission – Energies)</li>
+            <li>Routing – Switching</li>
+            <li>ABC of Project Management</li>
+            <li>Electronics assembly and maintenance</li>
+          </ul>
+        </div>
+      </div>   
+    </section>
+
+    <section id="education" class="page-view">
+      <div class="about-section">
+        <h2>Education</h2>
+        
+        <div class="card">
+          <h3>Telecommunication Engineer Diploma</h3>
+          <span class="inst-name">Institut de technologies et specialites 2 plateaux</span>
+          <div class="meta-row">
+            <span class="date">Apr 2002 - Jun 2007</span>
+            <span class="location">Côte d'Ivoire</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>High School Diploma</h3>
+          <span class="inst-name">Korhogo modern high school</span>
+          <div class="meta-row">
+            <span class="date">1999 - 2001</span>
+            <span class="location">Côte d'Ivoire</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="page-view">
+      <div class="about-section">
+        <h2>EXPERIENCE</h2>
+        <p class="intro-p">More than 10 years of experience in the tech and telecommunication industry.</p>
+        
+        <div class="filter-group">
+          <button class="filter-btn active" data-filter="all">All Operations</button>
+          <button class="filter-btn" data-filter="telecom">Telecom & Infrastructure</button>
+          <button class="filter-btn" data-filter="webdev">Software Projects</button>
+        </div>
+        <div class="card experience-card" data-category="webdev">
+          <h3> Senior Software Developer Engineer</h3>
+          <span class="company-link"><a href="#">Kodan-Dev Company</a></span>
+          <div class="meta-row">
+            <span class="date">jan 2026 - Present</span>
+            <span class="location">San Francisco, WA</span>
+          </div>
+          <ul class="exp-details">
+            <li>Build servers, manage databases, and create secure APIs with Node.js.</li>
+            <li>Engineered backend systems with Node.js and Express processing asynchronous CRUD transactions.</li>
+            <li>Combine front-end and back-end skills, implementing user authentication and session management.</li>
+            <li>Use React to build dynamic, single-page applications with reusable components.</li>
+          </ul>
+        </div>
+        
+        <div class="card experience-card" data-category="telecom">
+          <h3>Conference Infrastructure Technician</h3>
+          <span class="company-link"><a href="https://www.afdb.org/" target="_blank" rel="noopener noreferrer">African Development Bank Group</a></span>
+          <div class="meta-row">
+            <span class="date">Apr 2017 - Jun 2017 (3 mos)</span>
+            <span class="location">Côte d'Ivoire</span>
+          </div>
+          <ul class="exp-details">
+            <li>Managed technical infrastructure and logistics for board meetings and international conferences.</li>
+            <li>Provided end-to-end support for high-stakes meetings, ensuring seamless execution.</li>
+            <li>Collaborated with the IT department (CHIS) to maintain and optimize videoconferencing systems.</li>
+          </ul>
+        </div>
+
+        <div class="card experience-card" data-category="telecom">
+          <h3>Freelance Telecommunication Engineer (BSS/RAN & TX)</h3>
+          <span class="company-link"><a href="http://www.sta-ci.com/" target="_blank" rel="noopener noreferrer">Société de Télécommunications Africaine</a></span>
+          <div class="meta-row">
+            <span class="date">Apr 2016 - Mar 2017 (1 yr)</span>
+            <span class="location">Abidjan, Côte d'Ivoire</span>
+          </div>
+          <ul class="exp-details">
+            <li>Executed the SWAP of ORANGE-CI BTS sites from Alcatel to Nokia Flexi technology.</li>
+            <li>Installed, configured, and commissioned AVIAT frequency hop equipment on transmission sites.</li>
+            <li>Integrated and commissioned 2G/3G Huawei 3900 equipment for MTN-CI GSM sites.</li>
+            <li>Managed microwave link swaps for MTN-CI from Harris Truepoint to AVIAT Eclipse.</li>
+          </ul>
+        </div>
+
+        <div class="card experience-card" data-category="telecom">
+          <h3>RAN Engineer - BSS Head of Field Operations & Maintenance</h3>
+          <span class="company-link"><a href="https://www.greennetwork-ci.com/" target="_blank" rel="noopener noreferrer">Green Network Côte d'Ivoire</a></span>
+          <div class="meta-row">
+            <span class="date">Mar 2013 - 2017 (3 yrs 11 mos)</span>
+            <span class="location">Côte d'Ivoire</span>
+          </div>
+          <ul class="exp-details">
+            <li>Supervised network deployment and maintenance, including site integration, commissioning, and frequency planning.</li>
+            <li>Managed power systems (AC/DC), batteries, UPS, and ATS to ensure network stability.</li>
+            <li>Coordinated subcontracting teams and supervised BSS field technicians.</li>
+            <li>Served as OIC Head of BSS Service across multiple terms (2014–2016).</li>
+          </ul>
+        </div>
+
+        <div class="card experience-card" data-category="telecom">
+          <h3>Freelance Telecommunication Consultant (RBS & Tx)</h3>
+          <span class="company-link"><a href="https://www.aviatnetworks.com/" target="_blank" rel="noopener noreferrer">Aviat Networks</a></span>
+          <div class="meta-row">
+            <span class="date">Apr 2009 - Feb 2013 (3 yrs 11 mos)</span>
+            <span class="location">Côte d'Ivoire</span>
+          </div>
+          <ul class="exp-details">
+            <li>Deployed and commissioned radio, transmission, and energy equipment across various sites.</li>
+            <li>Performed installation, integration, and troubleshooting for Ericsson 2G/3G BTS.</li>
+            <li>Configured space diversity, traffic routing, and E1 transferring.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+    </section>
+      
+    <section id="contact-menu" class="page-view">
+      <div class="about-section">
+        <h2>Contact</h2>  
+        <div class="card">
+          <p class="contact-intro">You can reach me at:</p>
+          <ul class="contact-links">
+            <li>📞 Téléphone: <a href="tel:+10505050505">+1(050)505 0505</a></li>
+            <li>✉️ E-mail: <a href="mailto:simeon.tuo@gmail.com">simeon.tuo@gmail.com</a></li>
+            <li>🌐 LinkedIn: <a href="https://www.linkedin.com/in/kodan-hana/" target="_blank" rel="noopener noreferrer">Kodan-Hana</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <button id="backToTop" title="Go to top">↑</button>
+
+</body>
+</html>
